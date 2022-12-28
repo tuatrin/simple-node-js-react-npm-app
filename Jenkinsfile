@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'node' 
+            image 'hello-world:linux' 
             args '-p 3000:3000' 
         }
     }
